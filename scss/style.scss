@@ -1,0 +1,15 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@import "./utilities/variables";
+@import "base/reset";
+@import "layout/header";
+@import"layout/main-index";
+@import"layout/main-contact";
+@import "layout/main-quienes_somos";
+@import"layout/main-registrate";
+@import"layout/footer";
+
+

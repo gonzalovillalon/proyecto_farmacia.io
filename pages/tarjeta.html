@@ -12,22 +12,26 @@
 </head>
 
 <body>
-  <div class="title">
-
-    <h1>FARMACIA LOPEZ SANCHEZ <img src="/assets/logo.jpg" alt="logo_farmacia"></h1>
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <span class="material-symbols-outlined">
-      logout
-    </span>
-    <span class="material-symbols-outlined">
-      account_circle
-    </span>
-  </div>
-
+  
   <header>
-    <nav class="navbar navbar-expand-lg bg-secondary   ">
-      <div class="container-fluid bg-secondary">
+    <div class="title">
+
+      <h1>FARMACIA LOPEZ SANCHEZ <img src="/assets/logo.jpg" alt="logo_farmacia"></h1>
+      <div class="icono">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <span class="material-symbols-outlined">
+        logout
+      </span>
+      <span class="material-symbols-outlined">
+        account_circle
+      </span>
+      </div>
+   
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-light   ">
+      <div class="container-fluid bg-light border border-black">
         <a class="navbar-brand" href="/index.html">FARMACIA LOPEZ SANCHEZ</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,25 +39,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="/index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="/pages/quienes_somos.html">Quienes Somos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/pages/contact.html">Contacto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="/pages/info.html">Nuestras Sucursales</a>
+              <a class="nav-link" href="/pages/info.html">Nuestras Sucursales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Registrate</a>
+              <a class="nav-link" href="#">Registrate</a>
             </li>
             
           </ul>
         </div>
       </div>
     </nav>
+   
+   </div>
+    
   </header>
   <main>
     <h4>Completa los siguientes datos y Registrate</h4>
@@ -85,12 +92,15 @@
         Masculino
       </label>
     </div>
-    <div class="form-check p-">
+    <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         Femenino
       </label>
-      <input class="submit" type="submit" value="Registrate">
+      <div>
+        <input class="submit" type="submit" value="Registrate">
+      </div>
+    
     </div>
  
   </main>

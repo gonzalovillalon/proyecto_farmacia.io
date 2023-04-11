@@ -1,0 +1,29 @@
+header {
+  background-color:$background-principal;
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+    img {
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      width: 150px;
+      height: 150px;
+    }
+    .icono{
+      display: flex;
+     align-items: center;
+    }
+    #search{
+      padding: 10px;
+    }
+    button{
+      background-color: white;
+    }
+  }
